@@ -1,6 +1,7 @@
 img{
     height: 2000px;
     width:150px;
+
 }
 .logo{
     display: flex;
@@ -16,4 +17,7 @@ img{
 .page{
     padding: 10px 155px;
     background-color: #1f2937;
+}
+body {
+  font-family: 'Roboto', sans-serif;
 }
