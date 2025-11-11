@@ -1,0 +1,21 @@
+.head{
+    background-color: #1f2937;
+    padding: 10px 155px;
+}
+.logo-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.links a{
+    font-size: 18px;
+
+    padding: 0 15px;
+    color: #e5e7eb;
+    text-decoration:none ;
+}
