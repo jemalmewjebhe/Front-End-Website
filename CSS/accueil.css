@@ -11,7 +11,7 @@
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
-    
+
 }
 .links a{
     font-size: 18px;
@@ -19,4 +19,25 @@
     padding: 0 15px;
     color: #e5e7eb;
     text-decoration:none ;
+}
+.description .des-text{
+    margin-top: -30px;
+    
+}
+
+.description .des-text .text2{
+    font-size: 18px;
+    margin-top: -30px;
+    color: #e5e7eb;
+}
+.description .des-text .text1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
 }
