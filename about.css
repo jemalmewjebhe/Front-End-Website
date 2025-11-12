@@ -13,7 +13,7 @@
 
 
 body {
-  font-family: 'Roboto', sans-serif; 
+
   background-color: var(--bg);       
   color: var(--text);                
   line-height: 1.6;                  
@@ -26,8 +26,35 @@ body {
   padding: 20px;     
 }
 
+.logo-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -23px 40px 10px 40px;
+    
 
-.header {
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+
+}
+.links a{
+    font-size: 18px;
+
+    padding: 0 15px;
+    color: #e5e7eb;
+    text-decoration:none ;
+}
+.links a:hover,
+.links a:focus {
+  background-color: #FFFFFF14;
+  outline: none;
+} 
+
+
+/* .header {
   display: flex;                     
   justify-content: space-between;    
   align-items: center;               
@@ -54,11 +81,11 @@ body {
 }
 
 
-.links a:hover,
+links a:hover,
 .links a:focus {
-  background: rgba(255,255,255,0.08);
+  ba.ckground: rgba(255,255,255,0.08);
   outline: none;
-}
+} */
 
 
 .hero {
