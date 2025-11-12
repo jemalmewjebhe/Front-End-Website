@@ -1,8 +1,11 @@
 @font-face{
     font-family: 'ExtraBold';
     src: url(../fonts-Roboto/Roboto-ExtraBold.ttf);
+    
 }
-body{
+@font-face{
+    font-family: 'italiclight';
+    src: url(../fonts-Roboto/Roboto-LightItalic.ttf);
     
 }
 
@@ -44,9 +47,228 @@ body{
     font-size: 48px;
     font-family: 'ExtraBold';
 }
+.description .des-text button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    padding: 7px 25px;
+    
+}
 .description{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+}
+
+.p2{
+    padding: 0 230px 100px 230px;
+}
+.p2 .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p2 .info-head{
+    font-size: 36px;
+    font-family: 'ExtraBold';
+    text-align: center;
+    color: #1f2937;
+    padding: 35px 0;
+}
+
+.info1 p{
+    width: 150px;
+    margin: 0;
+    color: #1f2937;
+}
+.info2 p{
+    width: 150px;
+    margin: 0;
+    color: #1f2937;
+}
+.info3 p{
+    width: 150px;
+    margin: 0;
+    color: #1f2937;
+}
+.info4 p{
+    width: 170px;
+    margin: 0;
+    color: #1f2937;
+}
+.img1{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.img2{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.img3{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.img4{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.p3{
+    background-color: #DADADA;
+    padding: 80px 0px;
+    text-align: center;
+}
+.p3 p{
+    width: 70%;
+    font-size: 36px;
+    font-family: 'italiclight';
+    color: #1f2937;
+    margin: 0 auto 20px;
+}
+.p3 span {
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #1f2937;
+    margin-right: 200px;
+}
+
+.action{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 150px;
+    border-radius: 10px;
+    padding: 30px 100px;
+}
+.action p{
+    color: #e5e7eb;
+    margin: 0;
+}
+.action h4{
+    color: white;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+.action .button button{
+    background-color:#3882f6 ;
+    border-radius: 7px;
+    border: 1.5px solid white;
+    color: white;
+    padding: 5px 20px;
+}
+
+.End-p{
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    padding: 25px 0;
+}
+
+/* ========== استجابة للشاشات المتوسطة (تابلت) ========== */
+@media (max-width: 992px) {
+    .p1 {
+        padding: 15px 50px;
+    }
+
+    .description {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+
+    .description img {
+        width: 70%;
+        max-width: 350px;
+        margin-top: 20px;
+    }
+
+    .p2 {
+        padding: 0 50px 60px 50px;
+    }
+
+    .p2 .info {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .info1, .info2, .info3, .info4 {
+        text-align: center;
+    }
+
+    .action {
+        margin: 50px 40px;
+        padding: 20px 40px;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .p3 p {
+        width: 90%;
+        font-size: 28px;
+    }
+
+    .p3 span {
+        margin-right: 0;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .logo-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .links a {
+        display: inline-block;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .description .des-text .text1 {
+        font-size: 32px;
+    }
+
+    .description .des-text .text2 {
+        font-size: 16px;
+    }
+
+    .p2 {
+        padding: 0 20px 50px 20px;
+    }
+
+    .img1, .img2, .img3, .img4 {
+        width: 120px;
+        height: 120px;
+    }
+
+    .p3 p {
+        font-size: 22px;
+    }
+
+    .action {
+        margin: 30px 20px;
+        padding: 20px;
+    }
+
+    .action h4 {
+        font-size: 20px;
+    }
+
+    .End-p {
+        font-size: 14px;
+    }
 }
