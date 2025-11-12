@@ -37,7 +37,7 @@ body{
 }
 
         .links a:hover,
-        .links a:focus {
+        .links a.active {
         background-color: #FFFFFF14;
         outline: none;
         } 
@@ -183,7 +183,12 @@ body{
     padding: 25px 0;
 }
 
-/* ========== استجابة للشاشات المتوسطة (تابلت) ========== */
+@media (max-width: 992px) and (min-width:700px){
+    .description .des-text{
+        max-width: 70%;
+    }
+}
+
 @media (max-width: 992px) {
     .p1 {
         padding: 15px 50px;
