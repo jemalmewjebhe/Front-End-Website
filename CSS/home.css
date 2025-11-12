@@ -8,10 +8,13 @@
     src: url(../fonts-Roboto/Roboto-LightItalic.ttf);
     
 }
+body{
+    margin: 0;
+}
 
 .p1{
     background-color: #1f2937;
-    padding: 15px  155px 0px 155px;
+    padding: 25px  155px 0px 155px;
 }
 .logo-links{
     display: flex;
