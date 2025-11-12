@@ -50,7 +50,10 @@
 .description .des-text button{
     background-color: #3882f6;
     color: white;
-    border-radius: 10px;
+    border-radius: 7px;
+    border: none;
+    padding: 7px 25px;
+    
 }
 .description{
     display: flex;
@@ -222,7 +225,7 @@
     }
 }
 
-/* ========== استجابة للشاشات الصغيرة (هواتف) ========== */
+
 @media (max-width: 600px) {
     .logo-links {
         flex-direction: column;
