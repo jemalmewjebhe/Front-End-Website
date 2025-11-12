@@ -1,0 +1,259 @@
+ /* .nav-container { display:flex; justify-content:space-between; align-items:center; padding:15px 60px; background-color: rgb(9, 46, 57); }
+    .nav-container h1 { font-size:24px; color:rgb(253, 252, 252); font-family: "Andalus"; }
+    nav a { margin-left:25px; text-decoration:none; color:rgb(213, 210, 210); font-weight:500; transition:0.3s; }
+    nav a:hover { color:black; }
+ */
+  .nav-container{
+    display: flex;justify-content: space-between;align-items: center;
+
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff;
+}
+
+header{
+    background-color:rgb(6, 72, 92);
+    color: white;
+    padding: 30px 60px;
+}
+.logo{
+    font-size:  22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: lowercase;
+    transition: 0.3s;
+}
+.nav-links a:hover{
+    color: #c49b63;
+}
+h3{
+    text-align: center;
+}
+.images{
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    margin: 10px;
+    background-color: beige;
+}
+.menu-section .menu-liste{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 110px;
+
+}
+.menu-section .menu-liste .menu-item .menu-image{
+    max-width: 83%;
+    aspect-ratio: 1;
+}
+.menu-section .menu-liste .menu-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:  calc(100% / 3- 110px);
+    justify-content: space-between;
+    flex-direction: column;
+}
+.price{
+    font-weight: bold;
+    margin-top: 8px;
+    color: green;
+}
+.x{
+    background-color:rgb(6, 72, 92);
+    color: white;
+    padding: 20px 60px;  
+    text-align: center;                   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
