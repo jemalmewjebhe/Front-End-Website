@@ -1,0 +1,255 @@
+.nav-container{
+    display: flex;justify-content: space-between;align-items: center;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.logo-links{
+
+    padding: 25px 150px 30px 150px;
+    background-color:#1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+
+}
+.links a{
+    font-size: 18px;
+
+    padding: 0 15px;
+    color: #e5e7eb;
+    text-decoration:none ;
+}
+
+        .links a:hover,
+        .links a.active {
+        background-color: #FFFFFF14;
+        outline: none;
+        } 
+h3{
+    text-align: center;
+}
+.images{
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    margin: 10px;
+    background-color: beige;
+}
+.menu-section .menu-liste{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 110px;
+
+}
+.menu-section .menu-liste .menu-item .menu-image{
+    max-width: 83%;
+    aspect-ratio: 1;
+}
+.menu-section .menu-liste .menu-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:  calc(100% / 3- 110px);
+    justify-content: space-between;
+    flex-direction: column;
+}
+.price{
+    font-weight: bold;
+    margin-top: 8px;
+    color: green;
+}
+.x{
+    background-color:rgb(6, 72, 92);
+    color: white;
+    padding: 20px 60px;  
+    text-align: center;                   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

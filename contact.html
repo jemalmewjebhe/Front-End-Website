@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Café</title>
+
+    <style>
+        :root{
+            --bg: rgba(255,255,255,0.10);
+            --accent: #3882f6;
+            --text: #ffffff;
+            --border: rgba(255,255,255,0.15);
+        }
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            /* font-family: 'Roboto', sans-serif; */
+        }
+
+        body{
+            background-color:#1e2530; /* même couleur que home */
+            color:#fff;
+            line-height:1.6;
+            min-height:100vh;
+            padding:20px;
+        }
+
+        .container{
+            max-width:650px;
+            margin:80px auto 0;
+            background-color:rgba(255,255,255,0.06);
+            backdrop-filter:blur(8px);
+            border-radius:10px;
+            padding:30px;
+            box-shadow:0 4px 14px rgba(0,0,0,0.4);
+        }
+
+        /* ---------------- HEADER ---------------- */
+        .logo-links{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0px  140px 0px 145px;
+
+        }      
+        .logo{
+            font-size: 24px;
+            font-weight: bold;
+            color: #f9faf8;
+
+        }
+        .links a{
+            font-size: 18px;
+
+            padding: 0 15px;
+            color: #e5e7eb;
+            text-decoration:none ;
+        }
+        .links a:hover,
+        .links a.active {
+        background-color: #FFFFFF14;
+        outline: none;
+        } 
+
+
+        /* TITRES */
+        h1{ text-align:center; margin-bottom:25px; font-size:2rem; }
+        h2,h3{ margin:20px 0 10px; }
+
+        /* CONTACT INFO */
+        .contact-info{
+            padding:20px;
+            border-radius:6px;
+            margin-bottom:25px;
+            border:2px solid var(--accent);
+        }
+        .contact-info li{
+            background:rgba(255,255,255,0.1);
+            padding:8px;
+            margin-bottom:10px;
+            border-left:3px solid var(--accent);
+            list-style:none;
+        }
+
+        /* FORMULAIRE */
+        .contact-form{
+            border:2px solid var(--accent);
+            padding:20px;
+            border-radius:6px;
+        }
+        .form-group{ margin-bottom:15px; }
+        .form-group input, .form-group textarea{
+            width:100%;
+            padding:10px;
+            border:1px solid #aaa;
+            border-radius:4px;
+        }
+
+        .buttons{
+            display:flex;
+            gap:10px;
+        }
+        .btn{
+            flex:1;
+            padding:12px;
+            border:none;
+            cursor:pointer;
+            font-weight:bold;
+            border-radius:4px;
+        }
+        .btn-primary{ background:var(--accent); color:white; }
+        .btn-secondary{ background:#6b7280; color:white; }
+
+    </style>
+</head>
+<body>
+
+<div class="logo-links">
+            <div class="logo">Coffee house</div>
+            <div class="links">
+                <a href="home.html">home</a>
+                <a href="About.html">About</a>
+                <a href="Menu.html">Menu</a>
+                <a href="contact.html" class="active">contact</a>
+            </div>
+        </div>
+
+
+
+<div class="container">
+    <h1>Contact</h1>
+
+    <h2>Nos coordonnées</h2>
+    <div class="contact-info">
+        <ul>
+            <li><strong>Adresse :</strong> Avenue de l'Indépendance, Nouakchott</li>
+            <li><strong>Téléphone :</strong> +222 22 34 56 78</li>
+            <li><strong>Email :</strong> hello@cafehouse.example</li>
+            <li><strong>Instagram :</strong> CafeHouse</li>
+        </ul>
+    </div>
+
+    <h3>Envoyez-nous un message</h3>
+    <div class="contact-form">
+        <div class="form-group">
+            <label>Nom</label>
+            <input type="text" placeholder="Votre nom">
+        </div>
+
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="vous@exemple.com">
+        </div>
+
+        <div class="form-group">
+            <label>Message</label>
+            <textarea rows="5" placeholder="Écrivez votre message..."></textarea>
+        </div>
+
+        <div class="buttons">
+            <button class="btn btn-primary">Envoyer</button>
+            <button class="btn btn-secondary">Retour</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
