@@ -40,6 +40,7 @@ body{
         .links a.active {
         background-color: #FFFFFF14;
         outline: none;
+        border-radius: 10px;
         } 
 .description .des-text{
     margin-top: -50px;
